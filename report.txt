@@ -1,0 +1,17 @@
+The following data structures are used in the given code:
+
+    std::priority_queue<FlashCard>: To store the flashcards in each group, sorted by weight.
+    Group: To store the name of the group and the priority queue of flashcards.
+    GroupList: To store the list of groups, implemented as a linked list.
+
+The following functions use the above data structures:
+
+    openGroup(): Searches for the group with the specified index in the group list and opens the group menu for that group.
+    createGroup(): Creates a new group and inserts it at the head of the group list.
+    displayAllGroups(): Displays the names of all groups in the group list.
+    deleteGroup(): Deletes the group with the specified index from the group list.
+    groupMenu(): Displays the menu for the specified group and allows the user to add, delete, test, and view flashcards in the group.
+    addFlashCard(): Creates a new flashcard and adds it to the priority queue of flashcards in the specified group.
+    deleteFlashCard(): Deletes a flashcard from the priority queue of flashcards in the specified group.
+    randomFlashCard(): Tests a random flashcard from the priority queue of flashcards in the specified group.
+    displayAllFlashCard(): Displays all flashcards in the priority queue of flashcards in the specified group.
